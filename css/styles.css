@@ -1,0 +1,84 @@
+
+
+:root {
+
+  background-page-color: #e5e5e5;
+  brand-color-black: #212112;
+  brand-color-background: #2f303a;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  color: var(--brand-color-black);
+}
+.header {
+  background-color: #ececec;
+
+}
+.top-menu-link {
+  color: #000;
+  font-family: Raleway;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 1.2px;
+  
+}
+.navigation  a {
+  color: #212121;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.navigation a:hover{
+  color: #2196F3;
+ 
+}
+
+.contact a {
+  color: #757575;
+  font-weight: 500px;
+  font-size: 14px;
+  line-height: 16.41px;
+
+}
+.contact a:hover{
+  color: #2196F3;
+}
+
+
+.main-title {
+  color: #ffffff;
+  background-color: #2f303a;
+  font-weight: 900px;
+  font-size: 44px;
+  line-height: 60px;
+}
+.button {
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+}
+.description > li > h3 {
+  color: #212121;
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 16.41px;
+}
+.description > li > p {
+  color: #757575;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.footer {
+  background-color: #2F303A;
+}
+.adress > li{
+  color:#ffffff;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 24px;
+
+}
