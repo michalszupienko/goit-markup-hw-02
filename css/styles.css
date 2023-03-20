@@ -16,7 +16,7 @@ button {
   --background-page-color: #e5e5e5;
   --header-background: #ffffff;
   --main-text-color-black: #212121;
-  --logo-black:#000000;
+  --logo-black: #000000;
   --footer-color-background: #2f303a;
   --brand-color-blue: #2196f3;
   --contact-color: #757575;
@@ -27,21 +27,21 @@ button {
 .body {
   font-family: "Roboto", sans-serif;
 }
-.header {
+header {
   background-color: var(--header-background);
 }
 .top-menu-link {
-  color:var(--logo-black)
-  font-family: Raleway;
+  color: var(--logo-black);
+  font-family: Roboto;
   font-weight: 700px;
   font-size: 26px;
   line-height: 1.2px;
 }
-.span-color{
+.span-color {
   color: var(--brand-color-blue);
 }
 .navigation a {
-  color:var(--main-text-color-black);
+  color: var(--main-text-color-black);
   font-weight: 500px;
   font-size: 14px;
   line-height: 16.41px;
@@ -57,7 +57,7 @@ button {
   line-height: 16.41px;
 }
 .contact a:hover {
-  color:var(--brand-color-blue);
+  color: var(--brand-color-blue);
 }
 
 .main-title {
@@ -68,19 +68,47 @@ button {
   line-height: 60px;
 }
 
-.description > li > h3 {
+.description li h3 {
   color: var(--main-text-color-black);
   font-weight: 700px;
   font-size: 14px;
   line-height: 16.41px;
 }
-.description > li > p {
+.description li p {
   color: var(--contact-color);
   font-weight: 400px;
   font-size: 14px;
   line-height: 24px;
 }
 
+.tasks1 {
+  font-size: 36px;
+  font-weight: 700px;
+  color: var(--main-text-color-black);
+}
+.our-team {
+  background-color: var(--portfolio-button-crew-color);
+}
+.team {
+  font-weight: 700px;
+  font-size: 36px;
+  color: var(--main-text-color-black);
+}
+figure {
+  background-color: var(--header-background);
+}
+figcaption h4 {
+  color: var(--main-text-color-black);
+  font-weight: 500px;
+  font-size: 16px;
+
+}
+figcaption p {
+  color: var(--contact-color);
+  font-weight: 400px;
+  font-size: 16px;
+  
+}
 .footer {
   background-color: var(--footer-color-background);
 
@@ -88,19 +116,19 @@ button {
   font-size: 14px;
   line-height: 24px;
 }
-.bottom-menu-link{
+.bottom-menu-link {
   color: var(--header-background);
   font-family: Raleway;
   font-weight: 700px;
   font-size: 26px;
   line-height: 1.2px;
-
 }
 .adress {
   color: var(--header-background);
- 
 }
-.contact-footer{
-  color:var(--contact-color-footer)
-  
+.contact-footer {
+  color: var(--contact-color-footer);
+}
+.contact-footer:hover {
+  color: var(--brand-color-blue)
 }
