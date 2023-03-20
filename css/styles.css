@@ -1,84 +1,106 @@
-
+* {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
 
 :root {
-
-  background-page-color: #e5e5e5;
-  brand-color-black: #212112;
-  brand-color-background: #2f303a;
+  --background-page-color: #e5e5e5;
+  --header-background: #ffffff;
+  --main-text-color-black: #212121;
+  --logo-black:#000000;
+  --footer-color-background: #2f303a;
+  --brand-color-blue: #2196f3;
+  --contact-color: #757575;
+  --portfolio-button-crew-color: #f5f4fa;
+  --contact-color-footer: rgba(255, 255, 255, 0.6);
 }
 
 .body {
   font-family: "Roboto", sans-serif;
-  color: var(--brand-color-black);
 }
 .header {
-  background-color: #ececec;
-
+  background-color: var(--header-background);
 }
 .top-menu-link {
-  color: #000;
+  color:var(--logo-black)
   font-family: Raleway;
   font-weight: 700px;
   font-size: 26px;
   line-height: 1.2px;
-  
 }
-.navigation  a {
-  color: #212121;
+.span-color{
+  color: var(--brand-color-blue);
+}
+.navigation a {
+  color:var(--main-text-color-black);
   font-weight: 500px;
   font-size: 14px;
   line-height: 16.41px;
 }
-.navigation a:hover{
-  color: #2196F3;
- 
+.navigation a:hover {
+  color: var(--brand-color-blue);
 }
 
 .contact a {
-  color: #757575;
+  color: var(--contact-color);
   font-weight: 500px;
   font-size: 14px;
   line-height: 16.41px;
-
 }
-.contact a:hover{
-  color: #2196F3;
+.contact a:hover {
+  color:var(--brand-color-blue);
 }
-
 
 .main-title {
-  color: #ffffff;
-  background-color: #2f303a;
+  color: var(--header-background);
+  background-color: var(--footer-color-background);
   font-weight: 900px;
   font-size: 44px;
   line-height: 60px;
 }
-.button {
-  cursor: pointer;
-}
-ul {
-  list-style-type: none;
-}
+
 .description > li > h3 {
-  color: #212121;
+  color: var(--main-text-color-black);
   font-weight: 700px;
   font-size: 14px;
   line-height: 16.41px;
 }
 .description > li > p {
-  color: #757575;
+  color: var(--contact-color);
   font-weight: 400px;
   font-size: 14px;
   line-height: 24px;
 }
 
 .footer {
-  background-color: #2F303A;
-}
-.adress > li{
-  color:#ffffff;
+  background-color: var(--footer-color-background);
+
   font-weight: 400px;
   font-size: 14px;
   line-height: 24px;
+}
+.bottom-menu-link{
+  color: var(--header-background);
+  font-family: Raleway;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 1.2px;
 
+}
+.adress {
+  color: var(--header-background);
+ 
+}
+.contact-footer{
+  color:var(--contact-color-footer)
+  
 }
