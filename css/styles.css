@@ -35,42 +35,37 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .span-color {
   color: var(--brand-color-blue);
 }
-.navigation a {
-  color: inherit;
+.navigation a,
+.contact a {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.navigation a:hover {
+.navigation a {
+  color: inherit;
+}
+.navigation a:hover,
+.contact a:hover {
   color: var(--brand-color-blue);
 }
 .contact a {
   color: var(--contact-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
 }
-.contact a:hover {
-  color: var(--brand-color-blue);
-}
-
 .main-title h1 {
   color: var(--header-background);
   background-color: var(--footer-color-background);
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -80,17 +75,16 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .description li p {
   color: var(--contact-color);
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .tasks1 {
@@ -99,7 +93,7 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -111,7 +105,7 @@ header {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
@@ -120,8 +114,11 @@ figure {
 }
 figcaption h4 {
   color: inherit;
-  font-weight: 500px;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 figcaption p {
   color: var(--contact-color);
@@ -129,15 +126,11 @@ figcaption p {
   font-size: 16px;
   font-style: normal;
   letter-spacing: 0.03em;
-  line-height: 19px;
+  line-height: 1.19;
   text-decoration: none;
 }
 .footer {
   background-color: var(--footer-color-background);
-
-  font-weight: 400px;
-  font-size: 14px;
-  line-height: 24px;
 }
 .bottom-menu-link {
   color: var(--header-background);
@@ -145,7 +138,7 @@ figcaption p {
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 .adress {
@@ -153,7 +146,7 @@ figcaption p {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .contact-footer {
@@ -162,7 +155,7 @@ figcaption p {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contact-footer:hover {
