@@ -1,24 +1,16 @@
 :root {
-  --background-page-color: #e5e5e5;
+  --bgcolor-light: #e5e5e5;
   --header-background: #ffffff;
-  --main-text-color-black: #212121;
+  --main-text-black: #212121;
   --logo-black: #000000;
-  --footer-color-background: #2f303a;
+  --bgcolor-dark: #2f303a;
   --brand-color-blue: #2196f3;
   --contact-color: #757575;
   --portfolio-button-crew-color: #f5f4fa;
   --contact-color-footer: rgba(255, 255, 255, 0.6);
-  --heading-font-size: 16px;
-  --main-font: "Roboto";
-  --second-font: "Raleway";
-  --heading-font-weigth: 400;
-  --roboto400: 400;
-  --roboto500: 500;
-  --roboto700: 700;
-  --roboto900: 900;
-  --raleway700: 700;
+  --font-primary: "Roboto", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
 }
-
 * {
   margin: 0;
 }
@@ -32,21 +24,20 @@ a {
 button {
   cursor: pointer;
 }
-
 body {
-  font-family: "Roboto", sans-serif;
-  color: var(--main-text-color-black);
+  font-family: var(--font-primary);
+  color: var(--main-text-black);
   letter-spacing: 0.03em;
 }
-
-.top-menu-link {
-  font-family: "Raleway";
+.logo {
+  font-family: var(--font-secondary);
+  color: var(--brand-color-blue);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
-.span-color {
-  color: var(--brand-color-blue);
+.logo-dark {
+  color: var(--logo-black);
 }
 .navigation a,
 .contact a {
@@ -62,9 +53,11 @@ body {
 .contact a {
   color: var(--contact-color);
 }
+.main-title {
+  background-color: var(--bgcolor-dark);
+}
 .main-title h1 {
   color: var(--header-background);
-  background-color: var(--footer-color-background);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -73,31 +66,23 @@ body {
   text-transform: uppercase;
 }
 .button1 {
-  position: absolute;
   background-color: var(--brand-color-blue);
   color: var(--header-background);
-  width: 200px;
-  height: 50px;
-
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
-.button2 {
-  width: 114px;
-  height: 38px;
-  color: var(--main-text-color-black);
-  background-color: var(--portfolio-button-crew-color);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+.button2 button {
+  color: var(--main-text-black);
   font-weight: 500;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.button2:hover {
+.button2 button:hover {
   background-color: var(--brand-color-blue);
+  color: var(--header-background);
 }
 .description li h3 {
   font-weight: 700;
@@ -110,7 +95,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
-.h2 {
+h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -119,7 +104,6 @@ body {
 .our-team {
   background-color: var(--portfolio-button-crew-color);
 }
-
 figure {
   background-color: var(--header-background);
 }
@@ -130,22 +114,18 @@ figcaption h4 {
 figcaption p {
   color: var(--contact-color);
   line-height: 1.19;
-  text-decoration: none;
 }
 .footer {
-  background-color: var(--footer-color-background);
+  background-color: var(--bgcolor-dark);
 }
-.bottom-menu-link {
+.logo-light {
   color: var(--header-background);
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 .adress {
   color: var(--header-background);
   font-size: 14px;
   line-height: 1.71;
+  font-style: normal;
 }
 .contact-footer {
   color: var(--contact-color-footer);
@@ -153,6 +133,7 @@ figcaption p {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .contact-footer:hover {
   color: var(--brand-color-blue);
