@@ -9,11 +9,14 @@
   --portfolio-button-crew-color: #f5f4fa;
   --contact-color-footer: rgba(255, 255, 255, 0.6);
   --heading-font-size: 16px;
-  --main-font: 'Roboto';
-  --second-font: 'Raleway';
+  --main-font: "Roboto";
+  --second-font: "Raleway";
   --heading-font-weigth: 400;
-
-
+  --roboto400: 400;
+  --roboto500: 500;
+  --roboto700: 700;
+  --roboto900: 900;
+  --raleway700: 700;
 }
 
 * {
@@ -35,7 +38,6 @@ body {
   color: var(--main-text-color-black);
   letter-spacing: 0.03em;
 }
-
 
 .top-menu-link {
   font-family: "Raleway";
@@ -86,15 +88,15 @@ body {
 .button2 {
   width: 114px;
   height: 38px;
- color: var(--main-text-color-black);
- background-color: var(--portfolio-button-crew-color);
+  color: var(--main-text-color-black);
+  background-color: var(--portfolio-button-crew-color);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   font-weight: 500;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.button2:hover{
+.button2:hover {
   background-color: var(--brand-color-blue);
 }
 .description li h3 {
