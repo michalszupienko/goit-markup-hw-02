@@ -69,11 +69,11 @@ body {
   background-color: var(--brand-color-blue);
   color: var(--header-background);
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
 .button2 button {
+  font-family: var(--font-primary);
   color: var(--main-text-black);
   font-weight: 500;
   line-height: 1.62;
